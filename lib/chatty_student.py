@@ -1,3 +1,5 @@
+from student import Student
+
 class ChattyStudent(Student):
    def hello(self):
         super().hello()
